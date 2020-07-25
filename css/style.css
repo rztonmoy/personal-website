@@ -1,0 +1,175 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 40px 0px;
+}
+
+.top-banner{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.half-width{
+    flex-basis: 45%;
+    max-width: 45%;
+}
+
+.header-content{
+    padding-top: 100px;
+    padding-left: 16px;
+}
+
+h2{
+    font-size: 38px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+span{
+    color: #EC4C7A;
+}
+
+p{
+    color: dimgray;
+    width: 90%;
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #ed4b70;
+    display: inline-block;
+    color:white;
+    font-size: 18px;
+}
+
+.img{
+}
+img{
+    max-width: 100%;
+}
+
+.biography-section{
+    padding-top: 20px;
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+.biography-section img{
+    width: 75%;
+    height: auto;
+}
+
+.bio-content{
+    padding-top: 176px;
+    padding-left: 70px;
+}
+
+.bio-content p{
+    width: 100%;
+}
+
+.project-area{
+    text-align: center;
+    background-image: url(..images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 104px;
+    background-position: center;
+}
+
+.project-area h2{
+    margin-bottom: 28px;
+}
+
+.col{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.col img{
+    max-width: 100%;
+}
+
+.client-section{
+    background-image: url(../images/footer-bg.png);
+    padding-top: 112px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.client-box p{
+    width: 100%;
+    padding-top: 6px;
+    font-size: 13px;
+}
+.client-box h4{
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+.client-box h3{
+    padding-top: 55px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.message-box{
+    width: 510px;
+    height: 110px;
+    margin: auto;
+    background-color: #ed4b70;
+    border-radius: 5px;
+    padding-top: 18px;
+}
+
+.message-box p{
+    padding-bottom: 0px;
+    padding-top: 10px;
+    color:white;
+    font-size: 12px;
+}
+
+.message-box .mail{
+    font-size: 18px;
+}
+
+footer{
+    padding: 70px 0px 30px 0px;
+}
+
+.copy-right{
+    margin-top: 4px;
+    text-align: center;
+    padding-left: 335px;
+}
